@@ -1,0 +1,114 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f3f6fa;
+}
+
+button {
+    background-color: #1f4f72;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #166089;
+}
+
+/* Resume Preview Section Styling */
+.resume-preview {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: none;
+}
+
+/* Resume Name Styling */
+.resume-preview h3 {
+    font-size: 26px;
+    color: #1f4f72;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Section Headings */
+.resume-preview h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1f4f72;
+    padding-bottom: 5px;
+}
+
+/* Skills List */
+.resume-preview ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-preview ul li {
+    background-color: #eef7ff;
+    color: #166089;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Editable Section Visual */
+[contenteditable="true"] {
+    background-color: #fff3cd;
+    outline: none;
+    border: 1px dashed #e0a800;
+    padding: 5px;
+    margin: 5px 0;
+}
